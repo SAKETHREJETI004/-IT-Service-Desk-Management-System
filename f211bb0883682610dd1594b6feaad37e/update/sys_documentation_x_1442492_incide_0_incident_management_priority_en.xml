@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="priority" label="Priority" language="en" table="x_1442492_incide_0_incident_management">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <help/>
+            <hint/>
+            <label>Priority</label>
+            <language>en</language>
+            <name>x_1442492_incide_0_incident_management</name>
+            <plural>Priorities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-23 11:06:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Priority</sys_name>
+            <sys_package display_value="Incident Management System" source="x_1442492_incide_0">f211bb0883682610dd1594b6feaad37e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Incident Management System">f211bb0883682610dd1594b6feaad37e</sys_scope>
+            <sys_update_name>sys_documentation_x_1442492_incide_0_incident_management_priority_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-23 11:06:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

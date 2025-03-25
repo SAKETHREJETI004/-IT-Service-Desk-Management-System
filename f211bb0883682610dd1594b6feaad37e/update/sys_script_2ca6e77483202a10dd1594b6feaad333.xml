@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1442492_incide_0_incident_management</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Auto Move to In Progress</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    if (current.approval == "approved" && current.state != "In Progress") {
+        current.state = "In Progress";
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 18:05:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ca6e77483202a10dd1594b6feaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Move to In Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Management System" source="x_1442492_incide_0">f211bb0883682610dd1594b6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">f211bb0883682610dd1594b6feaad37e</sys_scope>
+        <sys_update_name>sys_script_2ca6e77483202a10dd1594b6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 18:05:14</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=2ca6e77483202a10dd1594b6feaad333"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2ca6e77483202a10dd1594b6feaad333</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 18:05:14</sys_created_on>
+        <sys_id>67c66bb483202a10dd1594b6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 18:05:14</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
