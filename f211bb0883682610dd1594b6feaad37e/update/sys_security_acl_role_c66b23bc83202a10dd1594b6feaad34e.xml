@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 18:28:08</sys_created_on>
+        <sys_id>c66b23bc83202a10dd1594b6feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_1442492_incide_0.it_end_user</sys_name>
+        <sys_package display_value="Incident Management System" source="x_1442492_incide_0">f211bb0883682610dd1594b6feaad37e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Management System">f211bb0883682610dd1594b6feaad37e</sys_scope>
+        <sys_security_acl display_value="x_1442492_incide_0_incident_management">506be37c83202a10dd1594b6feaad3de</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c66b23bc83202a10dd1594b6feaad34e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 18:28:08</sys_updated_on>
+        <sys_user_role display_value="x_1442492_incide_0.it_end_user" name="x_1442492_incide_0.it_end_user">0287637883202a10dd1594b6feaad3ab</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
