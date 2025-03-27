@@ -4,15 +4,15 @@ IT Service Desk Management System
 The **IT Service Desk Management System** is a **ServiceNow-based** application designed to streamline **incident management** within an organization. It allows users to log IT-related incidents, facilitates ticket assignment to support agents, and automates workflows for approvals and notifications.
 
 🚀 Features
-- ✅ **Incident Creation Form** – Users can log IT issues (Hardware, Software, Network).
-- ✅ **Automatic Ticket Assignment** – Business Rules auto-assign tickets based on category.
-- ✅ **Approval Workflow** – High-priority incidents require manager approval before processing.
-- ✅ **Email Notifications** – Automated alerts for assigned incidents.
-- ✅ **Role-based Access Control (ACLs)** – 
+- **Incident Creation Form** – Users can log IT issues (Hardware, Software, Network).
+- **Automatic Ticket Assignment** – Business Rules auto-assign tickets based on category.
+- **Approval Workflow** – High-priority incidents require manager approval before processing.
+- **Email Notifications** – Automated alerts for assigned incidents.
+- **Role-based Access Control (ACLs)** – 
   - **End Users:** Can create & track their own incidents.
   - **IT Support Agents:** Can update, assign, and resolve incidents.
   - **Admins:** Have full control (create, update, delete records).
-- ✅ **Dashboard & Reporting** – Track incident trends, resolution times, and pending approvals.
+- **Dashboard & Reporting** – Track incident trends, resolution times, and pending approvals.
 
 🛠 Technologies Used
 - **ServiceNow (Scoped Application)**
